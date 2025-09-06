@@ -11,8 +11,8 @@ The Lamp stack was deployed on Amason EC2 instance running on Ubuntu
 * Basic knowledge of Linux commands
 * A key pair for SSH access
 * AWS security group rules allowing;
-  * HTTP (Port 80)
-  * SSH (PORT 22)
+  * HTTP (Port 80) : To serve we traffic
+  * SSH (PORT 22) : For secure access
 * Local terminal (Git bash)
 * Github for central repsoitory, version control and documentation
 #  Step by Step Implementation
@@ -123,22 +123,7 @@ sudo chown -R $USER:$USER /var/www/projectlamp
 sudo vi /etc/apache2/sites-available/projectlamp.conf
 
 * Press i and paste the folowing into the blank file:
-
-<VirtualHost *:80>
-
-        ServerName projectlamp
-        
-        ServerAlias www.projectlamp
-       
-        ServerAdmin webmaster@localhost
-       
-        DocumentRoot /var/www/projectlamp
-       
-        ErrorLog ${APACHE_LOG_DIR}/error.log
-       
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
-        
-  </VirtualHost>
+<img width="1886" height="1032" alt="Screenshot 2025-09-03 193516" src="https://github.com/user-attachments/assets/d75f17df-176d-4ddf-b1c7-adbdca34a634" />
 
 
 To save and close the file completely:
