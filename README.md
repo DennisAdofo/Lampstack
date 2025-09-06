@@ -122,7 +122,7 @@ sudo chown -R $USER:$USER /var/www/projectlamp
 
 sudo vi /etc/apache2/sites-available/projectlamp.conf
 
-* Press i and paste the folowing into the blank file:
+* Press i and paste the following into the blank file:
 <img width="1886" height="1032" alt="Screenshot 2025-09-03 193516" src="https://github.com/user-attachments/assets/d75f17df-176d-4ddf-b1c7-adbdca34a634" />
 
 
