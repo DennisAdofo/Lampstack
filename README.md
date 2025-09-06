@@ -103,7 +103,7 @@ sudo apt install php libapache2-mod-php php-mysql
 
 To check PHP version, type the command below:
 
-php iv
+php -v
 
 <img width="751" height="264" alt="Screenshot 2025-09-04 121940" src="https://github.com/user-attachments/assets/a5a74c33-ec24-49ea-8e65-a5a68ae9cc6a" />
 
