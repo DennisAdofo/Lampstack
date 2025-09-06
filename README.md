@@ -72,6 +72,9 @@ Log into MySQL by typing the command below:
 
 sudo mysql
 
+<img width="783" height="422" alt="Screenshot 2025-09-04 121715" src="https://github.com/user-attachments/assets/654288fb-4557-4f88-8a0e-10bc79c14b6a" />
+
+
 <img width="1619" height="1023" alt="Screenshot 2025-09-03 175018" src="https://github.com/user-attachments/assets/f7661109-84bf-4cb5-a637-41c91779a40e" />
 
 Change the root user authenication method to the one that uses a password by typing the command below:
