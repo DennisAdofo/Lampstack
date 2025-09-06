@@ -1,12 +1,12 @@
 # Lampstack Implementation on AWS
 # Overview
 # This LAMP stack project is a web service consisting of the following:
-* Linux - Operating system
-* Apache - Web server
-* MySQL - Database
-* PHP - Scripting Language
+* Linux - Operating system that hosts the environment
+* Apache - Web server that handles HTTP requests
+* MySQL - Database system that stores and manages data
+* PHP - Scripting Language for dynamic content
 The Lamp stack was deployed on Amason EC2 instance running on Ubuntu
-# 1. Prerequisites
+# Project Prerequisites
 * An AWS account
 * Basic knowledge of Linux commands
 * A key pair for SSH access
@@ -14,7 +14,8 @@ The Lamp stack was deployed on Amason EC2 instance running on Ubuntu
   * HTTP (Port 80)
   * SSH (PORT 22)
 * Local terminal (Git bash)
-# 2. Step by Step Implementation
+* Github for central repsoitory, version control and documentation
+#  Step by Step Implementation
 # Step 1: Launch an EC2 instance
  * Log into the AWS Management console to setup the EC2 Instance
  * Search for EC2 on the search bar
