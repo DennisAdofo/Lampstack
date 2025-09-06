@@ -36,7 +36,7 @@ The Lamp stack was deployed on Amason EC2 instance running on Ubuntu
 * <img width="388" height="148" alt="Screenshot 2025-09-06 122336" src="https://github.com/user-attachments/assets/b980f396-26e0-4b7b-81ed-f03b09985738" />
 * cd downloads
 * <img width="390" height="161" alt="Screenshot 2025-09-06 120017" src="https://github.com/user-attachments/assets/1973719b-676e-4b94-9968-4cf6f2c39102" />
-* ssh -i lamp.pem ubuntu@<EC2_Public_IP>
+* ssh -i lamp.pem ubuntu@<EC2_Public_IP_Address>
 * <img width="674" height="789" alt="Screenshot 2025-09-06 120104" src="https://github.com/user-attachments/assets/217b7b2e-9120-4b30-bd36-b6c233bb1955" />
 # Step 3: Update the system
 sudo apt update
